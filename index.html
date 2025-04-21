@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTech Solutions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #005b96; color: #fff; padding: 50px 20px; text-align: center; }
+        header h1 { font-size: 3em; }
+        header p { font-size: 1.2em; }
+        section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+        h2 { color: #005b96; font-size: 2em; }
+        ul { padding-left: 20px; font-size: 1.1em; }
+        a { color: #005b96; text-decoration: none; }
+        .button {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 12px 30px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+        .button:hover { background: #128C7E; }
+        footer { text-align: center; padding: 20px; background: #eee; font-size: 14px; }
+        .service-item { margin: 20px 0; }
+        .fadeIn { animation: fadeIn 2s ease-in-out; }
+        .fadeInUp { animation: fadeInUp 1.5s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .logo { width: 150px; margin-bottom: 20px; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2.5em; }
+            section { padding: 20px 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="fadeIn">
+        <img src="https://via.placeholder.com/150" alt="KTech Solutions Logo" class="logo">
+        <h1>KTech Solutions</h1>
+        <p>Expert Laptop Repair & Services in BSK 3rd Stage, Bengaluru</p>
+    </header>
+
+    <section class="fadeInUp">
+        <h2>Our Services</h2>
+        <ul>
+            <li class="service-item">Laptop Repair</li>
+            <li class="service-item">Desktop Repair</li>
+            <li class="service-item">Data Recovery</li>
+            <li class="service-item">Software Installation</li>
+            <li class="service-item">Virus Removal</li>
+            <li class="service-item">Hardware Upgrades</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p><strong>Phone/WhatsApp:</strong> <a href="https://wa.me/919008289541" target="_blank">9008289541</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@ktechsolutions.co.in">info@ktechsolutions.co.in</a></p>
+
+        <h2>Location</h2>
+        <p>
+            70/1, 2nd Floor, Near 43 A Bus Stop,<br>
+            Kathriguppe Main Rd,<br>
+            Banashankari 3rd Stage, Bengaluru – 560085<br>
+            <a href="https://g.co/kgs/GVUw8ek" target="_blank">View on Google Maps</a>
+        </p>
+
+        <a class="button" href="https://wa.me/919008289541" target="_blank">Chat on WhatsApp</a>
+    </section>
+
+    <footer class="fadeInUp">
+        &copy; 2025 KTech Solutions. All rights reserved.
+    </footer>
+</body>
+</html>
